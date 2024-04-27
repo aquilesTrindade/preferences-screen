@@ -1,4 +1,4 @@
-package com.app
+package com.trindade.preferences.screen
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,8 +9,8 @@ import androidx.appcompat.app.AppCompatActivity
 
 import com.google.android.material.appbar.MaterialToolbar
 
-import com.app.R
-import com.app.SettingsAct
+import com.trindade.preferences.screen.R
+import com.trindade.preferences.screen.SettingsAct
 
 public class MainAct : AppCompatActivity() {
 	

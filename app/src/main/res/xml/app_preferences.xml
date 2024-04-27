@@ -37,7 +37,6 @@
 		<SeekBarPreference
 			android:key="brightness"
 			android:title="Brilho"
-            android:layout="@layout/m3_preference"
 			android:summary="20%"
 			/>
 			

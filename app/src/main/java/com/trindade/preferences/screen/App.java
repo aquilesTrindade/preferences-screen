@@ -1,4 +1,4 @@
-package com.app;
+package com.trindade.preferences.screen;
 
 //Android
 import android.app.AlarmManager;
@@ -10,7 +10,7 @@ import android.content.res.Configuration;
 import android.os.Process;
 import androidx.fragment.app.FragmentManager;
 
-import com.app.DebugActivity;
+import com.trindade.preferences.screen.DebugActivity;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;

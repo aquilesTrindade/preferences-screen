@@ -1,12 +1,12 @@
-package com.app
+package com.trindade.preferences.screen
 
 import android.os.Bundle
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.preference.PreferenceFragmentCompat
 
-import com.app.R
-import com.app.Prefs
+import com.trindade.preferences.screen.R
+import com.trindade.preferences.screen.Prefs
 
 public class SettingsAct : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
