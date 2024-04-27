@@ -4,4 +4,4 @@
 <br>
 <p>Is free to use</p>
 </br>
-<a href="https://github.com/aquilesTrindade" alt="Creator">
+<a href="https://github.com/aquilesTrindade">Creator</a>
