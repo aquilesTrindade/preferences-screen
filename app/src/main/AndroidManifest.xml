@@ -10,10 +10,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name="com.app.App"
+        android:name="com.trindade.preferences.screen.App"
         android:theme="@style/TrindadeTheme">
         <activity
-            android:name="com.app.MainAct"
+            android:name="com.trindade.preferences.screen.MainAct"
             android:exported="true">
             <intent-filter>
                 <action 
@@ -23,8 +23,8 @@
             </intent-filter>
         </activity>
         <activity 
-            android:name="com.app.SettingsAct" />
+            android:name="com.trindade.preferences.screen.SettingsAct" />
         <activity 
-            android:name="com.app.DebugActivity" />
+            android:name="com.trindade.preferences.screen.DebugActivity" />
     </application>
 </manifest>

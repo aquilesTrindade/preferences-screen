@@ -1,4 +1,4 @@
-package com.app;
+package com.trindade.preferences.screen;
 
 //Android
 import android.app.Activity;
@@ -11,7 +11,7 @@ import android.widget.TextView;
 //AndroidX
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.app.R;
+import com.trindade.preferences.screen.R;
 
 //Google
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;

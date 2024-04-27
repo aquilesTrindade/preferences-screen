@@ -1,4 +1,4 @@
-package com.app
+package com.trindade.preferences.screen
 
 import android.content.SharedPreferences
 import android.os.Bundle

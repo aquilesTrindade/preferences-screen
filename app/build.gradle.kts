@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.app"
+    namespace = "com.trindade.preferences.screen"
     compileSdk = 34
     
     defaultConfig {
-        applicationId = "com.app"
+        applicationId = "com.trindade.preferences.screen"
         minSdk = 28
         targetSdk = 34
         versionCode = 1
