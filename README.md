@@ -2,9 +2,9 @@
 <h1>About this app</h1>
 
 <div align="center">
-   <img src="images/screenshots/main.png" alt="Main" >
-   <img src="images/screenshots/prefs_fragment_1.png" alt="Main" >
-   <img src="images/screenshots/prefs_fragment_2.png" alt="Main" >
+   <img src="images/screenshots/main.png" alt="Main" width="32%" >
+   <img src="images/screenshots/prefs_fragment_1.png" alt="Main" width="32%"  >
+   <img src="images/screenshots/prefs_fragment_2.png" alt="Main" width="32%"  >
    
 </div>
 
