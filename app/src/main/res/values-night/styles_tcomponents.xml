@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Components.Widget.Button" parent="TextAppearance.AppCompat.Widget.Button">
+        <item name="android:width">300dp</item>
+        <item name="android:height">60dp</item>
+        <item name="background">@drawable/background_style_button</item>
+        <item name="android:textColor">?attr/colorPrimaryInverse</item>
+    </style>
+
+    <style name="Button.OutlinedButton.IconOnly" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="Widget.AppTheme.CardView.ListItem" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="android:focusable">true</item>
+        <item name="minHeight">?android:attr/listPreferredItemHeightSmall</item>
+        <item name="android:layout_marginHorizontal" tools:targetApi="o">@dimen/padding_small</item>
+    </style>
+
+    <style name="Widget.Manager.TextView.Base" parent="Widget.AppCompat.TextView">
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="Widget.Manager.TextView.Icon" parent="Widget.Manager.TextView.Base">
+        <item name="android:drawablePadding">@dimen/spacing_medium</item>
+        <item name="android:paddingTop">@dimen/spacing_mid_medium</item>
+        <item name="android:paddingStart">@dimen/spacing_medium</item>
+        <item name="android:paddingBottom">@dimen/spacing_mid_medium</item>
+        <item name="android:paddingEnd">@dimen/spacing_medium</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.BodyLarge </item>
+    </style>
+
+    <style name="Widget.Manager.TextView.Icon.Clickable" parent="Widget.Manager.TextView.Icon">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+    <style name="Widget.Trindade.MaterialCardView.Base" parent="Widget.Material3.CardView.Filled">
+<!--
+        <item name="cardBackgroundColor">?attr/colorOnSecondary</item>
+-->
+        <item name="android:clickable">true</item>
+        <item name="android:checkable">true</item>
+    </style>
+    <style name="Widget.Trindade.MaterialCardView.LargeRound" parent="Widget.Trindade.MaterialCardView.Base">
+        <item name="cardCornerRadius">@dimen/corner_radius_base</item>
+        <item name="cardBackgroundColor">?colorPrimary</item>
+        <item name="android:background" />
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">false</item>
+    </style>
+    <style name="Widget.Trindade.MaterialCardView.Large" parent="Widget.Trindade.MaterialCardView.Base">
+        <item name="android:layout_height">@dimen/card_normal_height</item>
+    </style>
+    <style name="roundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/corner_radius_base</item>
+    </style>
+
+</resources>

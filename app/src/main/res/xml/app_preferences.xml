@@ -1,0 +1,58 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory 
+		android:title="Alertas">
+		
+        <Preference 
+			android:key="text" 
+			android:title="Notificação" />
+    </PreferenceCategory>
+	
+	<PreferenceCategory 
+		android:title="Geral">
+	
+	<SwitchPreferenceCompat
+		android:key="dark_theme"
+		android:title="Tema Escuro"
+		android:summary="Economiza bateria" />
+        
+		
+		<MultiSelectListPreference 
+			android:key="auto_play"
+            android:layout="@layout/m3_preference"
+			android:title="Tocar automaticamente"
+			android:summary="Ativo"
+			android:entries="@array/auto_play" 
+			app:entryValues="@array/entry"
+            android:dialogTheme="@style/MaterialAlertDialog.Material3"
+			android:dialogTitle="Tocar Automaticamente" />
+		
+	</PreferenceCategory>
+	
+	<PreferenceCategory 
+		android:key="expan"
+		android:title="Tela"
+		app:initialExpandedChildrenCount="1">
+		
+		<SeekBarPreference
+			android:key="brightness"
+			android:title="Brilho"
+            android:layout="@layout/m3_preference"
+			android:summary="20%"
+			/>
+			
+		<Preference 
+			android:key="change_wallpaper"
+			android:title="Alterar Wallpaper"
+			android:summary="Altere o wallpaper do dispositivk"/>
+			
+		<rikka.preference.SimpleMenuPreference 
+			android:key="device_theme"
+			android:title="Tema do dispositivo" 
+			android:summary="Altere o tema do dispositivo"
+			android:entries="@array/themes"
+			android:entryValues="@array/entry" />
+		
+	</PreferenceCategory>
+
+</PreferenceScreen>
