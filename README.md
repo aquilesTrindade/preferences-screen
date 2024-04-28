@@ -14,4 +14,4 @@
 # Credits
 <a href="https://github.com/aquilesTrindade">Application Creator</a>
 <br>
-<a href="https://github.com/RikkaX">SimpleMenuPrefrence Dependency (RikkaX</a>
+<a href="https://github.com/RikkaW/MaterialPreference">SimpleMenuPrefrence Dependency (RikkaW)</a>
