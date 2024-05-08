@@ -1,4 +1,4 @@
-name: TrindadeWare Debug
+name: App Debug
 
 on:
   push:
@@ -35,5 +35,5 @@ jobs:
       - name: Upload debug apk minApi26
         uses: actions/upload-artifact@v3
         with:
-          name: trindade-ware-debug
-          path: app/build/outputs/apk/trindade-ware-debug
+          name: app
+          path: app/build/outputs/apk/app-debug
