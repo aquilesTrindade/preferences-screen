@@ -1,15 +1,13 @@
-name: App Debug
+name: TrindadeWare - D
 
 on:
   push:
     branches:
       - main
       - dev
-      
-  workflow_dispatch:
 jobs:
   build:
-    name: Building app by trindadeDev
+    name: Build debug apk
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3.0.2
@@ -32,8 +30,8 @@ jobs:
         with:
           arguments: assembleDebug
 
-      - name: Upload debug apk minApi26
+      - name: Upload debug apk
         uses: actions/upload-artifact@v3
         with:
-          name: app
-          path: app/build/outputs/apk/app-debug
+          name: debug
+          path: app/build/outputs/apk/
