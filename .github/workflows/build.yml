@@ -33,5 +33,5 @@ jobs:
       - name: Upload debug apk
         uses: actions/upload-artifact@v3
         with:
-          name: debug
+          name: TrindadeWare-Debug
           path: app/build/outputs/apk/
