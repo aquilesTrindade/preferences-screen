@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Base.Light" parent="Theme.Material3.Light">
+    <style name="Base.Light" parent="Theme.Material3.DynamicColors.Light">
         
       <!-- Window -->
         
@@ -16,7 +16,7 @@
      
     </style>
     
-     <style name="Base.Dark" parent="Theme.Material3.Dark">
+     <style name="Base.Dark" parent="Theme.Material3.DynamicColors.Dark">
         
       <!-- Window -->
         
