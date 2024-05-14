@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - dev
+      - first_branch
 jobs:
   build:
     name: Build debug apk
