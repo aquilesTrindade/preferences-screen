@@ -1,73 +1,51 @@
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <PreferenceCategory 
-		android:title="Alertas">
-		
-        <Preference 
-			android:key="text" 
-			android:title="Notificação" />
+    <PreferenceCategory android:title="Alertas">
+        <Preference
+            android:key="text"
+            android:title="Notificação" />
     </PreferenceCategory>
-	
-	<PreferenceCategory 
-		android:title="Geral">
-	
-	<SwitchPreferenceCompat
-		android:key="dark_theme"
-		android:title="Tema Escuro"
-		android:summary="Economiza bateria" />
-        
-		
-		<MultiSelectListPreference 
-			android:key="auto_play"
+
+    <PreferenceCategory android:title="Geral">
+        <SwitchPreferenceCompat
+            android:key="dark_theme"
+            android:title="Tema Escuro"
+            android:summary="Economiza bateria" />
+
+        <MultiSelectListPreference
+            android:key="auto_play"
             android:layout="@layout/m3_preference"
-			android:title="Tocar automaticamente"
-<<<<<<< HEAD
-			android:summary="Ativo"
-=======
-			android:summary="%s"
->>>>>>> 68088a4 (keep up to date)
-			android:entries="@array/auto_play" 
-			app:entryValues="@array/entry"
+            android:title="Tocar automaticamente"
+            android:summary="%s"
+            android:entries="@array/auto_play"
+            app:entryValues="@array/entry"
             android:dialogTheme="@style/MaterialAlertDialog.Material3"
-			android:dialogTitle="Tocar Automaticamente" />
-		
-	</PreferenceCategory>
-	
-	<PreferenceCategory 
-		android:key="expan"
-		android:title="Tela"
-<<<<<<< HEAD
-=======
+            android:dialogTitle="Tocar Automaticamente" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="expan"
+        android:title="Tela"
         android:layout="@layout/m3_preference"
->>>>>>> 68088a4 (keep up to date)
-		app:initialExpandedChildrenCount="1">
-		
-		<SeekBarPreference
-			android:key="brightness"
-			android:title="Brilho"
-<<<<<<< HEAD
-			android:summary="20%"
-=======
-			android:summary="%s"
->>>>>>> 68088a4 (keep up to date)
-			/>
-			
-		<Preference 
-			android:key="change_wallpaper"
-			android:title="Alterar Wallpaper"
-			android:summary="Altere o wallpaper do dispositivk"/>
-			
-		<rikka.preference.SimpleMenuPreference 
-			android:key="device_theme"
-			android:title="Tema do dispositivo" 
-<<<<<<< HEAD
-			android:summary="Altere o tema do dispositivo"
-=======
-			android:summary="%s"
->>>>>>> 68088a4 (keep up to date)
-			android:entries="@array/themes"
-			android:entryValues="@array/entry" />
-		
-	</PreferenceCategory>
+        app:initialExpandedChildrenCount="1">
+
+        <SeekBarPreference
+            android:key="brightness"
+            android:title="Brilho"
+            android:summary="%s" />
+
+        <Preference
+            android:key="change_wallpaper"
+            android:title="Alterar Wallpaper"
+            android:summary="Altere o wallpaper do dispositivo" />
+
+        <rikka.preference.SimpleMenuPreference
+            android:key="device_theme"
+            android:title="Tema do dispositivo"
+            android:summary="%s"
+            android:entries="@array/themes"
+            android:entryValues="@array/entry" />
+    </PreferenceCategory>
 
 </PreferenceScreen>
