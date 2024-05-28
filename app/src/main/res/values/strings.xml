@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">PreferencesScreen</string>
+
+    <string-array name="themes">
+        <item>Automatico</item>
+        <item>Claro</item>
+        <item>Escuro</item>
+    </string-array>
+	
+    <string-array name="auto_play">
+        <item>Ativo</item>
+        <item>Desativo</item>
+        <item>Apenas Wi-Fi</item>
+    </string-array>
+	
+	<string-array name="entry">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+
+</resources>

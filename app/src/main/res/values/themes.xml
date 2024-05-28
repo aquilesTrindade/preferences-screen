@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Light" parent="Theme.Material3.Light">
+        
+      <!-- Window -->
+        
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        
+      <!-- Preferences -->  
+        
+        <item name="preferenceScreenStyle">@style/Preference.M3.PreferenceScreen</item>
+        <item name="switchPreferenceCompatStyle">@style/Preference.M3.SwitchPreferenceCompat</item>
+        <item name="preferenceStyle">@style/Preference.M3</item>
+        <item name="simpleMenuPreferenceStyle">@style/Preference.Trindade.Material3.SimpleMenuPreference</item>
+     
+    </style>
+    
+     <style name="Base.Dark" parent="Theme.Material3.Dark">
+        
+      <!-- Window -->
+        
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        
+      <!-- Preferences -->  
+        
+        <item name="preferenceScreenStyle">@style/Preference.M3.PreferenceScreen</item>
+        <item name="switchPreferenceCompatStyle">@style/Preference.M3.SwitchPreferenceCompat</item>
+        <item name="preferenceStyle">@style/Preference.M3</item>
+        <item name="simpleMenuPreferenceStyle">@style/Preference.Trindade.Material3.SimpleMenuPreference
+        </item>
+    </style>
+   
+    
+</resources>
