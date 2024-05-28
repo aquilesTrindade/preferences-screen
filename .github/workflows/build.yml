@@ -1,4 +1,4 @@
-name: TrindadeWare - D
+name: preferences-screen-debug
 
 on:
   push:
@@ -33,5 +33,5 @@ jobs:
       - name: Upload debug apk
         uses: actions/upload-artifact@v3
         with:
-          name: TrindadeWare-Debug
+          name: preferences-screen-debug
           path: app/build/outputs/apk/
