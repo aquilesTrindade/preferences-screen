@@ -16,6 +16,11 @@
             android:paddingBottom="0px"
             android:paddingLeft="0px"
             android:paddingRight="0px"
+<<<<<<< HEAD
+=======
+            android:selectAllOnFocus="true"
+            android:textIsSelectable="true"
+>>>>>>> 68088a4 (keep up to date)
             android:textSize="11sp"
             android:typeface="monospace" />
     </HorizontalScrollView>

@@ -18,7 +18,11 @@
     </style>
 
     <style name="Widget.AppTheme.CardView.ListItem" parent="Widget.Material3.CardView.Elevated">
+<<<<<<< HEAD
         <item name="cardCornerRadius">24dp</item>
+=======
+        <item name="cardCornerRadius">15dp</item>
+>>>>>>> 68088a4 (keep up to date)
         <item name="cardElevation">0dp</item>
         <item name="android:focusable">true</item>
         <item name="minHeight">?android:attr/listPreferredItemHeightSmall</item>

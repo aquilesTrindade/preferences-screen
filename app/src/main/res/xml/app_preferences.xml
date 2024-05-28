@@ -21,7 +21,11 @@
 			android:key="auto_play"
             android:layout="@layout/m3_preference"
 			android:title="Tocar automaticamente"
+<<<<<<< HEAD
 			android:summary="Ativo"
+=======
+			android:summary="%s"
+>>>>>>> 68088a4 (keep up to date)
 			android:entries="@array/auto_play" 
 			app:entryValues="@array/entry"
             android:dialogTheme="@style/MaterialAlertDialog.Material3"
@@ -32,12 +36,20 @@
 	<PreferenceCategory 
 		android:key="expan"
 		android:title="Tela"
+<<<<<<< HEAD
+=======
+        android:layout="@layout/m3_preference"
+>>>>>>> 68088a4 (keep up to date)
 		app:initialExpandedChildrenCount="1">
 		
 		<SeekBarPreference
 			android:key="brightness"
 			android:title="Brilho"
+<<<<<<< HEAD
 			android:summary="20%"
+=======
+			android:summary="%s"
+>>>>>>> 68088a4 (keep up to date)
 			/>
 			
 		<Preference 
@@ -48,7 +60,11 @@
 		<rikka.preference.SimpleMenuPreference 
 			android:key="device_theme"
 			android:title="Tema do dispositivo" 
+<<<<<<< HEAD
 			android:summary="Altere o tema do dispositivo"
+=======
+			android:summary="%s"
+>>>>>>> 68088a4 (keep up to date)
 			android:entries="@array/themes"
 			android:entryValues="@array/entry" />
 		
